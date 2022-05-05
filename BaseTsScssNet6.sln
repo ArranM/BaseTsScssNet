@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseTsScssNet6", "BaseTsScssNet6\BaseTsScssNet6.csproj", "{625F9A04-9D4A-47A2-BC0F-1FFDC6530CD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseTsScssNet6.Ui.Tests", "BaseTsScssNet6.Ui.Tests\BaseTsScssNet6.Ui.Tests.csproj", "{809F36F0-B467-409A-A338-9F288AB330BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{625F9A04-9D4A-47A2-BC0F-1FFDC6530CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{625F9A04-9D4A-47A2-BC0F-1FFDC6530CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{625F9A04-9D4A-47A2-BC0F-1FFDC6530CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809F36F0-B467-409A-A338-9F288AB330BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809F36F0-B467-409A-A338-9F288AB330BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809F36F0-B467-409A-A338-9F288AB330BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809F36F0-B467-409A-A338-9F288AB330BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
