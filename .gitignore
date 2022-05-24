@@ -403,3 +403,4 @@ FodyWeavers.xsd
 *.ncrunchsolution
 **/wwwroot/assets/css/
 **/wwwroot/assets/js/
+**/wwwroot/assets/lib/

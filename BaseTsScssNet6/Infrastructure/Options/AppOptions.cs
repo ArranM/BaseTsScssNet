@@ -4,6 +4,6 @@
     {
         public const string AppOptionsName = nameof(AppOptions);
 
-        public string ApiUrl { get; set; }
+        public string? ApiUrl { get; set; }
     }
 }

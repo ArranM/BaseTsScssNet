@@ -21,7 +21,6 @@
     "gulp-sass": "^5.0.0",
     "gulp-shell": "^0.8.0",
     "gulp-sourcemaps": "^3.0.0",
-    "gulp-twig": "^1.2.0",
     "jest": "^27.3.1",
     "rimraf": "^3.0.2",
     "rollup": "^2.59.0",
@@ -31,6 +30,7 @@
     "typescript": "^4.4.4"
   },
   "devDependencies": {
+    "systemjs": "^6.12.1",
     "tslib": "^2.3.1"
   }
 }

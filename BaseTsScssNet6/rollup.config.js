@@ -11,7 +11,7 @@ export default [
         ],
         output: {
             dir: "wwwroot/assets/js",
-            format: "esm",
+            format: "system",
             sourcemap: isDev()
         },
         plugins: [
@@ -23,6 +23,18 @@ export default [
                 tsconfig: "./tsconfig.json"
             }),
             !isDev() && terser({
+                format: {
+                    comments: false
+                }
+            })
+        ],
+    }, {
+        input: 'node_modules/systemjs/dist/s.js',
+        output: {
+            file: 'wwwroot/assets/lib/system.js'
+        },
+        plugins: [
+            terser({
                 format: {
                     comments: false
                 }
